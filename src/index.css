@@ -21,3 +21,10 @@ body{
   pointer-events: none;
   z-index: 9999;
 }
+
+#container {
+  display: block;
+  width: 200px;
+  height: 100px;
+  object-fit: cover;
+}
