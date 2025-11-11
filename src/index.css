@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+body{
+  background-color: black;
+}
+
+@theme{
+  --color-button-border: #a0cdcd;
+}
+
+
+.cursor-ball
+{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  background-color: #a0cdcd;
+  pointer-events: none;
+  z-index: 9999;
+}
